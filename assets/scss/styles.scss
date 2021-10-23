@@ -321,6 +321,13 @@ img{
         margin-left: auto;
     }
 }
+// .contact_details{
+//     display: inline-flex;
+//     align-items: center;
+// }
+// .contact_container{
+//     margin-right: 20%;
+// }
 
 /* ===== FOOTER =====*/
 .footer{
@@ -428,14 +435,14 @@ img{
             column-gap: 2rem;
         }
     }
-    .contact{
-        &__form{
-            width: 360px;
-        }
-        &__container{
-            justify-items: center;
-        }
-    }
+    // .contact{
+    //     &__form{
+    //         width: 360px;
+    //     }
+    //     &__container{
+    //         justify-items: center;
+    //     }
+    // }
 
 }
 @media screen and(min-width: 1024px){
@@ -448,4 +455,5 @@ img{
             right: 10%;
         }
     }
+}
 }
